@@ -9,7 +9,7 @@
 <body>
     <h1>Лог-парсер</h1>
     
-    <div class="container">
+    <div class="panels-container">
         <div class="panel">
             <h2>Загрузка логов</h2>
             <input type="file" id="logFile" accept=".log,.txt">
@@ -27,11 +27,11 @@
             <button id="resetFilterBtn">Сбросить фильтр</button>
             <p>Найдено строк: <span id="lineCount">0</span></p>
         </div>
-    </div>
-    
-    <div class="panel">
-        <h2>Результаты</h2>
-        <div id="logOutput"></div>
+        
+        <div class="panel">
+            <h2>Результаты</h2>
+            <div id="logOutput"></div>
+        </div>
     </div>
     
     <script src="parser.js"></script>
